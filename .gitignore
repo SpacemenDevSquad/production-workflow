@@ -1,1 +1,63 @@
+# Java / Gradle
+.gradle/
+build/
+**/build/
+*.class
+*.jar
+*.war
+*.ear
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle local configuration
+local.properties
+
+# Node / React / Vite
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+.parcel-cache/
+coverage/
+.nyc_output/
+
+# npm / Yarn / pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS-generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
