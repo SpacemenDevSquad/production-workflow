@@ -198,11 +198,11 @@ You do not need a separate Linux installation of VS Code. VS Code can run in Win
 
 Before committing:
 
-- [ ] Review the contents of `.gitignore`.
-- [ ] Inspect `git status`.
-- [ ] Verify that only the intended changes will be committed.
-- [ ] Commit with an appropriate descriptive message.
-- [ ] Push the branch to GitHub.
+- [x] Review the contents of `.gitignore`.
+- [x] Inspect `git status`.
+- [x] Verify that only the intended changes will be committed.
+- [x] Commit with an appropriate descriptive message.
+- [x] Push the branch to GitHub.
 
 ---
 
@@ -232,9 +232,9 @@ You may use this wording directly or revise it to better match what you actually
 
 After merging:
 
-- [ ] Pull Request 2 has been merged.
-- [ ] Local `main` has been updated.
-- [ ] The completed branch has been cleaned up.
+- [x] Pull Request 2 has been merged.
+- [x] Local `main` has been updated.
+- [x] The completed branch has been cleaned up.
 
 ---
 
@@ -311,12 +311,12 @@ Project conventions are documented in:
 ```
 Before committing:
 
-- [ ] The style guide exists at `docs/style-guide.md`.
-- [ ] `docs/.gitkeep` has been removed.
-- [ ] `README.md` accurately describes the current project.
-- [ ] The README link/path to the style guide is correct.
-- [ ] Markdown files have been reviewed for formatting and obvious errors.
-- [ ] Repository state has been inspected before committing.
+- [x] The style guide exists at `docs/style-guide.md`.
+- [x] `docs/.gitkeep` has been removed.
+- [x] `README.md` accurately describes the current project.
+- [x] The README link/path to the style guide is correct.
+- [x] Markdown files have been reviewed for formatting and obvious errors.
+- [x] Repository state has been inspected before committing.
 
 ---
 
