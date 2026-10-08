@@ -18,7 +18,7 @@ function App() {
         <div>
           <h1>Get started</h1>
           <p>
-            HELLO. I am testing cloudflare deployment, so let's see what happens!
+            HELLO. BLAH I am testing cloudflare deployment, so let's see what happens!
           </p>
         </div>
         <button
