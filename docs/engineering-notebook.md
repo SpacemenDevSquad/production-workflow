@@ -159,4 +159,4 @@ React and TypeScript introduce build tooling, dependency management, and additio
 * Lint: `npm run lint`
 * Production build: `npm run build`
 * Production output: `frontend/dist/`
-* Frontend foundation pull request: `#___`
+* Frontend foundation pull request: `#5`
