@@ -18,7 +18,7 @@ function App() {
         <div>
           <h1>Get started</h1>
           <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            HELLO. I am testing cloudflare deployment, so let's see what happens!
           </p>
         </div>
         <button
