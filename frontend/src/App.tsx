@@ -7,7 +7,19 @@ const interests = [
   'Mobile Development',
 ]
 
+type ReportKind = 'bug' | 'feature'
+type Report = {
+  id: string
+  text: string
+  kind: ReportKind
+}
+
 function App() {
+  const sampleReport: Report = {
+    id: '1',
+    text: 'Navigation link is broken',
+    kind: 'bug',
+  }
   return (
     <div className="bg-body-tertiary min-vh-100">
       <nav className="navbar bg-dark" data-bs-theme="dark">
@@ -25,6 +37,11 @@ function App() {
           email="pmbrumbach@protonmail.com"
         />
       </main>
+
+      <section className="report-board">
+        <h2>Bugs & Feature Requests</h2>
+        <p>{sampleReport.text} ({sampleReport.kind})</p>
+      </section>
     </div>
   )
 }
