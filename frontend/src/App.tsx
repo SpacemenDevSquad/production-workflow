@@ -15,12 +15,22 @@ type Report = {
   kind: ReportKind
 }
 
+const sampleReport: Report = {
+  id: '1',
+  text: 'Navigation link is broken',
+  kind: 'bug',
+}
+const initialReports: Report[] = [
+  { id: '1', text: 'Navigation link is broken', kind: 'bug' },
+  { id: '2', text: 'Add dark mode', kind: 'feature' },
+]
+
 function App() {
-  const [reports, setReports] = useState<Report[]>([])
-  const [newReportText, setNewReportText] = useState('')
+  const [reports, setReports] = useState<Report[]>([]);
+  const [newReportText, setNewReportText] = useState('');
 
   function addReport() {
-    const text = newReportText.trim()
+    const text = newReportText.trim();
 
     if (text.length === 0) return
     const newReport: Report = {
@@ -29,19 +39,9 @@ function App() {
       kind: 'bug',
     }
 
-    setReports([...reports, newReport])
-    setNewReportText('')
+    setReports([...reports, newReport]);
+    setNewReportText('');
   }
-
-  const sampleReport: Report = {
-    id: '1',
-    text: 'Navigation link is broken',
-    kind: 'bug',
-  }
-  const initialReports: Report[] = [
-    { id: '1', text: 'Navigation link is broken', kind: 'bug' },
-    { id: '2', text: 'Add dark mode', kind: 'feature' },
-  ]
 
   const path = window.location.pathname.replace(/\/+$/, "") || "/";
   return (
